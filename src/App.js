@@ -1,12 +1,8 @@
-import React from 'react'
-import Calendar from './components/calendar/calendar'
+import React from 'react';
+import Calendar from './components/calendar/calendar';
 
 const App = () => {
-  return (
+    return <Calendar />;
+};
 
-      <Calendar />
-  
-  )
-}
-
-export default App
+export default App;

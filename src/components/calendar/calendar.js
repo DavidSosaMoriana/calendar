@@ -6,7 +6,7 @@ import './calendar.css';
 function Calendar() {
     return (
         <div className="grid">
-          {/* <div className="grid__header">
+          { <div className="grid__header">
                 <div className="grid__header__month">
                     {getMonths().map((month) => {
                         return (
@@ -25,7 +25,7 @@ function Calendar() {
                         );
                     })}
                 </div>
-            </div>*/}
+            </div>}
             <div className="grid__header">
                 {associateCalendar(calendar['datos']).map((months) => {
                     return (

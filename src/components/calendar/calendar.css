@@ -1,11 +1,12 @@
 .grid__header {
-padding: 1.25rem;
-border-radius: 0.625rem;
+  display: grid;
+  padding: 1.25rem;
 }
 
 .grid__header__month {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: 50px 1fr;
+  gap: 1.25rem;
   text-align: center;
   background: lightgray;
   width: 30%;
@@ -14,9 +15,8 @@ border-radius: 0.625rem;
 }
 
 .grid__header__day__item {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  justify-items: center;
-  align-items: center;
+  display: inline-grid;
+  grid-template-rows: 10px;
+  gap: 1px;
 }
+
