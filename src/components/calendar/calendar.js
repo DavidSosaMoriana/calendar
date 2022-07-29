@@ -50,10 +50,16 @@ function Calendar() {
                     <h4>Empleados</h4>
                     {employees["data"].map((employee) => {
                         return (
-                            <div className="grid__body__item__employee">
-                                {employee.first_name}
-                                {employee.last_name}
-                            </div>
+                            <table border="1" cellSpacing="1" className="grid__body__item__employee">
+                                <tr>
+                                    <th>
+                                        {employee.first_name}
+                                        &nbsp;
+                                        {employee.last_name}
+                                    </th>
+                                </tr>
+                                
+                            </table>
                         );
                     })}
                 </div>
