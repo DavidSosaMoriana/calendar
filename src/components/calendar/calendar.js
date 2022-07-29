@@ -47,6 +47,7 @@ function Calendar() {
 
             <div className="grid__body">
                 <div className="grid__body__item">
+                    <h4>Empleados</h4>
                     {employees["data"].map((employee) => {
                         return (
                             <div className="grid__body__item__employee">
