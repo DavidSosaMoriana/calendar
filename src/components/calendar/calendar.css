@@ -34,14 +34,13 @@
 .grid__body__item{
   padding-left: 10px;
   width: 80%;
+  margin-top: 10px;
 }
 .grid__body__item h4 {
-  display: flex;
-  flex-direction: row;
   padding-left:20px;
   background: lightgray;
-  border-left: 5px solid #c0c0c0;
-  border-right: 5px solid #c0c0c0;
+  border-top: 5px solid #c0c0c0;
+  border-bottom: 2px solid #ceccccec;
 }
 
 .grid__body__item__employee {
